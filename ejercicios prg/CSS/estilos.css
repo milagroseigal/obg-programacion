@@ -1,0 +1,216 @@
+/*Facundo Etcheverry-327494,Milagros Seigal-328375*/
+.Descripcion-general{
+    background-color: #f6f1db;
+}
+
+
+.Gestion-de-temas{
+background-color: #FFD388;
+}
+
+/*.Gestion-de-preguntas{
+   
+}*/
+
+.jugar{
+background-color: #fddac6;
+}
+
+.scrollable-table{
+    height: 129px;
+    overflow-y: auto;
+}
+table {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-align: center;
+    border:2px solid black;
+    padding-bottom: 1px;
+
+}
+
+th {
+    
+    background-color: #f2f2f2; /* Color de fondo para las cabeceras */
+    border:1px solid black;
+    position: sticky;
+    top: 0;
+    
+}
+
+td { 
+    background-color: #f2f2f2; /* Color de fondo para las celdas */
+    border:1px solid black
+    ;
+}
+
+
+.bg-amarillo1 {
+    background-color: #fffb64; /*color de fondo para matematica */
+}
+.bg-amarillo2 {
+    background-color: #e8d24e; /*color de fondo para ciencia */
+}
+.bg-amarillo3 {
+    background-color: #d2a938; /*color de fondo para arte */
+}
+.bg-marron1 {
+    background-color: #bb8023; /*color de fondo para deporte */
+}
+.bg-marron2 {
+    background-color: #a4570d; /*color de fondo para lenguaje */
+}
+.bg-marron3 {
+    background-color: #8b3c02; /*color de fondo para geografia */
+}
+.gris {
+    background-color: #808080;
+}
+
+header {
+    background-color: #f9a370; /* Fondo naranja */
+    text-align: center;
+    padding: 0;
+    border-bottom: 1px solid white; /* Separación blanca */
+}
+
+header img {
+    max-width: 250px; /* Ajusta el tamaño del logo si es necesario */
+    display: block;
+    margin: 0 auto;
+    padding:0;
+}
+
+
+
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 0; /* Espacio entre el logo y los enlaces */
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+    /* Estilo para los enlaces cuando se pasa el cursor sobre ellos */
+   
+}
+header  nav ul li a:hover {
+    color: #FF5733; /* Color intensificado al pasar el cursor */
+    text-decoration: underline; /* Mantiene el subrayado al pasar el cursor */
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    text-decoration: underline; /* Subraya los enlaces por defecto */
+    color: #0000EE; /* Color por defecto para los enlaces */
+    transition: color 0.3s ease; /* Suaviza la transición de color */
+}
+
+.respuesta {
+    display: flex; /* Utiliza flexbox para alinear los botones */
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 10px; /* Espacio entre los botones */
+    padding: 10px; /* Opcional: Espacio alrededor del contenedor */
+   
+}
+
+.botonesN {
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border: none; /* Elimina el borde */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    border: 2px solid white;
+}
+.botonesFinal{
+    display: flex;
+    justify-content: center;
+}
+.textoDeLaPregunta{
+    background-color: #f29325;
+    padding:10px;
+    margin: 60px;
+    text-align: center;
+    color:#f2f2f2;
+    
+}
+
+h2 {
+   
+    text-align: center; /* Centra el texto */
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 10px; /* Opcional: para separar el texto de la sombra */
+    border-radius: 15px; /* Bordes redondos */
+}
+
+ h3{
+    text-align: center;
+ }
+ .fotoEstudiantes img {
+    border-radius: 50%; /* Hace que los bordes sean circulares */
+    width: 125px; /* Asegura que el ancho sea 125px */
+    height: 125px; /* Asegura que la altura sea 125px */
+    object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del contenedor */
+ }
+.fotoEstudiantes {
+    display: flex; /* Para alinear las imágenes y etiquetas en línea */
+    gap: 20px; /* Espacio entre las imágenes y las etiquetas */
+    align-items: center; /* Alinea verticalmente los elementos */
+    padding-bottom: 20px; /* Padding hacia abajo para el nav */
+}
+.fotoEstudiantes label {
+    margin-left: 10px; /* Espacio entre la imagen y el texto */
+}
+h4{
+    border: 2px solid white;
+}
+.botonesFinal{
+    padding-bottom: 20px;
+}
+
+.idTema {
+    margin-left: 135px; /* Corrige el espacio */
+    width: 20%;
+}
+
+.idNivel {
+    margin-left: 123px; /* Corrige el espacio */
+    width: 3%;
+}
+
+.idPregunta {
+    margin-left: 39px; /* Corrige el espacio */
+    width: 19.5%;
+}
+
+.idCorrecto {
+    margin-left: 40px; /* Corrige el espacio */
+}
+
+.idIncorrectas {
+    margin-left: 15px; /* Corrige el espacio */
+}
+
+.idNombreTema {
+    margin-left: 120px;
+    width:15%
+}
+.idDescripcionTema {
+    margin-left: 120px;
+    width:15%
+}
+.idTemaAElegir{
+    margin-left: 120px; /* Corrige el espacio */
+    width: 15%;
+}
+.idNivelJuego{
+    margin-left: 110px; /* Corrige el espacio */
+    width: 3%;
+}
+
